@@ -1,0 +1,42 @@
+.noteContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    min-height: 150px;
+    background-color: #00d181;
+    border-radius: 12px;
+    overflow-wrap: break-word;
+
+    .textContainer {
+        border: none;
+        resize: none;
+        background-color: #00d181;
+    }
+
+    .textContainer:focus {
+        outline: none;
+    }
+
+    .noteFooterPart {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .remaining {
+            font-size: 0.8em;
+        }
+
+        .saveButton {
+            background-color: #e1e1e1;
+            border: none;
+            border-radius: 15px;
+            padding: 5px 10px;
+        }
+
+        .saveButton:hover {
+            background-color: #dadada;
+            cursor: pointer;
+        }
+    }
+}

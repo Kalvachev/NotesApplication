@@ -1,0 +1,30 @@
+.noteList {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.noteContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    min-height: 150px;
+    background-color: #fff56e;
+    border-radius: 12px;
+    overflow-wrap: break-word;
+
+    .noteFooterPart {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .dateContainer {
+            font-size: 0.8em;
+        }
+
+        .deleteIcon {
+            cursor: pointer;
+        }
+    }
+}
