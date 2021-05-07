@@ -7,13 +7,14 @@ const NotesList = ({ notes, handleAddNote, handleDeleteNote }) => {
 		<div className={styles.noteList}>
 			{notes.map((note) => (
 				<Note
+					key={note.id}
 					id={note.id}
 					text={note.text}
 					date={note.date}
 					handleDeleteNote={handleDeleteNote}
 				/>
 			))}
-			
+
 			<AddNote handleAddNote={handleAddNote} />
 		</div>
 	);
