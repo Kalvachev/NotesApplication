@@ -2,7 +2,7 @@
 
 ### Notes Application ###
 
-You can see the project in action: [here]().
+You can see the project in action: [here](https://applicationnotes.netlify.app/).
 
 #### Languages: 
 - JаvaScript
